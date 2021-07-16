@@ -1,0 +1,55 @@
+#main .heading {
+    font-size: 7.5rem;
+    font-family: "Patua One", cursive;
+}
+
+#main {
+    padding: 175px 6.25vw 135px;
+}
+
+.form .heading-text {
+    font-size: 1.8rem;
+    font-family: 'Syne';
+    font-weight: 400;
+    text-align: center;
+    padding-top: 100px;
+    line-height: 1.8;
+}
+
+.contact-form {
+    padding: 80px 160px;
+    margin-top: 80px;
+    background: grey;
+}
+
+.heading-form {
+    font-size: 7rem;
+    font-family: "Patua One", cursive;
+    text-align: center;
+    color: white;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.row span {
+    font-size: 2.5rem;
+    font-family: 'Syne';
+    font-weight: 700;
+}
+
+.row input {
+    width: 80%;
+    height: 40px;
+    margin-left: 70px;
+    border-radius: 6px;
+    padding: 2.5rem;
+    border: 1px solid #3c4558;
+    outline: 0 none #000;
+}
+
+.contact-form .more {
+    transform: translateX(44%);
+}

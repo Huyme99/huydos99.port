@@ -1,0 +1,49 @@
+#main .heading {
+    font-size: 7.5rem;
+    font-family: "Patua One", cursive;
+}
+
+#main {
+    padding: 175px 6.25vw 0;
+}
+
+.hero-about {
+    padding: 70px 10px 0 80px;
+}
+
+img {
+    width: 80%;
+}
+
+.profile h2 {
+    margin-left: 5px;
+    font-family: "Patua One", cursive;
+    font-size: 5.5rem;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+.profile table {
+    width: 80%;
+    border-collapse: collapse;
+    font-family: 'Syne';
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.profile table th {
+    padding-left: 2em;
+    padding-right: 3em;
+}
+
+.profile table th, .profile table td {
+    border-bottom: 1px solid #707070;
+    text-align: left;
+    vertical-align: top;
+    font-weight: 400;
+    padding: 1.5em 1em;
+}
+
+.profile table tr:first-child th, .profile table tr:first-child td {
+    padding-top: 0;
+}

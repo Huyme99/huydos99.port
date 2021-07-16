@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style3.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <a href="index.html" class="logo">Spectxte</a>
+            <div id="content-toggle">
+                <a href="javascript:void(0)" class="close-toggleMenu" id="close-toggleMenu" onclick="closeToggleMenu()">
+                    <ion-icon name="close-outline"></ion-icon>
+                </a>
+                <a href="index.html" class="header-info">Home</a>
+                <a href="about.html" class="header-info">About</a>
+                <a href="blog.html" class="header-info">Blog</a>
+                <a href="contact.html" class="header-info">Contact</a>
+
+                <div class="social-media">
+                    <a href="https://www.facebook.com/deadHuy13/"> <img src="./assets/img/icon-facebook.svg" alt="facebook"></a>
+                    <a href="#"> <img src="./assets/img/icon-twitter.svg" alt="facebook"></a>
+                    <a href="https://www.instagram.com/huymowf/"> <img src="./assets/img/icon-instagram.svg" alt="facebook"></a>
+                </div>
+            </div>
+            <div id="toggle" onclick="toggleMenu()">
+                <div class="icon">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div id="main">
+        <div class="heading">Contact</div>
+        <div class="container">
+            <div class="form">
+                <div class="heading-text">
+                    <p>For requests and consultations regarding website and graphic production,<br> please
+                        contact us using the form below, telephone, or E-MAIL.</p>
+                </div>
+                <div class="contact-form">
+                    <div class="row" style="padding-top:30px;">
+                        <span>name <span style="color:white;">*</span></span>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="row ptb-30">
+                        <span>email <span style="color:white;">*</span></span>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="row">
+                        <span>note <span style="color:white;">*</span></span>
+                        <textarea name="" id="" cols="109" rows="25" style="margin-left:90px; border-radius: 6px;"></textarea>
+                    </div>
+                    <p class="more">
+                        <a href="#" class="more-btn">
+                            submit
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="cursor"></div>
+        <div class="follower-cursor"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

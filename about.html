@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style1.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <a href="index.html" class="logo">Spectxte</a>
+            <div id="content-toggle">
+                <a href="javascript:void(0)" class="close-toggleMenu" id="close-toggleMenu" onclick="closeToggleMenu()">
+                    <ion-icon name="close-outline"></ion-icon>
+                </a>
+                <a href="index.html" class="header-info">Home</a>
+                <a href="about.html" class="header-info">About</a>
+                <a href="blog.html" class="header-info">Blog</a>
+                <a href="contact.html" class="header-info">Contact</a>
+
+                <div class="social-media">
+                    <a href="https://www.facebook.com/deadHuy13/"> <img src="./assets/img/icon-facebook.svg" alt="facebook"></a>
+                    <a href="#"> <img src="./assets/img/icon-twitter.svg" alt="facebook"></a>
+                    <a href="https://www.instagram.com/huymowf/"> <img src="./assets/img/icon-instagram.svg" alt="facebook"></a>
+                </div>
+            </div>
+
+            <div id="toggle" onclick="toggleMenu()">
+                <div class="icon">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </div>
+        </header>
+
+        <div id="main">
+            <div class="heading">About</div>
+            <div class="hero-about">
+                <div class="container">
+                    <div class="row ptb">
+                        <div class="col-4">
+                            <div class="img-pattern">
+                                <img src="./assets/img/about.jpg" alt="motif" class="p1-img">
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="profile">
+                                <h2>Profile</h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>Name</th>
+                                            <td>Mai Kim Huy</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Tel</th>
+                                            <td>0777088802</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Mail</th>
+                                            <td>maikimhuy1@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Location</th>
+                                            <td>888 Quang Trung, Gò Vấp, HCM City</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Career</th>
+                                            <td>Freelance</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cursor"></div>
+        <div class="follower-cursor"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

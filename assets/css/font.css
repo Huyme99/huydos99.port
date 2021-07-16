@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'LD';
+    src: url('LouizeDisplaytrial-BoldItalic.woff2') format('woff2'), url('LouizeDisplaytrial-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LD';
+    src: url('LouizeDisplaytrial-Medium.woff2') format('woff2'), url('LouizeDisplaytrial-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LD';
+    src: url('LouizeDisplaytrial-MediumItalic.woff2') format('woff2'), url('LouizeDisplaytrial-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LD';
+    src: url('LouizeDisplaytrial.woff2') format('woff2'), url('LouizeDisplaytrial.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LD';
+    src: url('LouizeDisplaytrial-Italic.woff2') format('woff2'), url('LouizeDisplaytrial-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LD';
+    src: url('LouizeDisplaytrial-Bold.woff2') format('woff2'), url('LouizeDisplaytrial-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
